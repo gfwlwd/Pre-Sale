@@ -257,7 +257,8 @@ h4 {
 }
 .bg1 {
 	text-align: center;
-	background: transparent url(../images/imagecontainer.jpg) no-repeat top center fixed;
+	background: transparent url(../images/imagecontainer.jpg) no-repeat top center fixed; 
+	/*background: url(../images/maxed.svg) no-repeat top center fixed;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -268,7 +269,8 @@ h4 {
 	-webkit-clip-path: polygon( 85%, 50% 100%, 100% 85%, 100% 0, 0 0 );
 	-moz-clip-path: polygon( 85%, 50% 100%, 100% 85%, 100% 0, 0 0 );
 	-ms-clip-path: polygon( 85%, 50% 100%, 100% 85%, 100% 0, 0 0 );
-	clip-path: polygon( 0 85%, 50% 100%, 100% 85%, 100% 0, 0 0 );
+	clip-path: polygon( 0 85%, 50% 100%, 100% 85%, 100% 0, 0 0 ); 
+	/* Doesn't work in IE and Firefox, normal image will be displayed. */
 }
 .bg1 h1 {
 	text-align: center;
