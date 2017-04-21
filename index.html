@@ -22,17 +22,17 @@
     <![endif]-->
 
 </head>
-<body id="home">
+<body id="page-top" data-spy="scroll" data-target="#navbar-nav" data-offset="64" >
 <!-- ----- navigation section ----- -->
-<nav class="navbar navbar-default navbar-fixed-top" >
-  <div class="container-fluid">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" >
+  <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <div class="img-circle"><a class="navbar-brand" href="#">P</a></div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-nav" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <div class="img-circle"><a class="navbar-brand" href="/">P</a></div>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background:white; min-height:64px;height:auto">
+    <div class="collapse navbar-collapse" id="navbar-nav" style="background:white; min-height:64px;height:auto;">
       <ul class="nav navbar-nav">
-        <li><a class="page-scroll" href="#home">Home <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a class="page-scroll" href="#home">Home <span class="sr-only">(current)</span></a></li>
         <li><a class="page-scroll" href="#presale">Pre-Sale</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -42,14 +42,13 @@
     </div>
   </div>
 </nav>
+
 <!-- ----- header section ----- -->
-<header>
+<header id="home" >
   <div class="container-fluid bg1" >
     <h1 class="block-title">Pre-Sale</h1>
     <h2 class="sub-title" > ‘Maximaal inspelen van de markt’</h2>
-    <button class="btn orangeBtn">Contact</button>
-    <button class="btn invertertedBtn">Meer Weten</button>
-  </div>
+    <a href="#contact" class="btn orangeBtn page-scroll contact" style="line-height:40px;">Contact</a> <a href="#uitleg" class="btn invertertedBtn  page-scroll meer"  style="line-height:40px;">Meer Weten</a> </div>
 </header>
 <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a> 
 
@@ -61,7 +60,7 @@
   <div class="col-lg-2 col-md-12 text-center">
     <div class="service-box text-center">
       <div id="diamond"> <img src="images/leads.png" alt="Leads" /> </div>
-      <h3>Veel meer leads</h3>
+      <h3 class="centerline">Veel meer leads</h3>
       <p>Optas solestissin eos wer dolen </p>
     </div>
   </div>
@@ -69,7 +68,7 @@
   <div class="col-lg-2 col-md-12 text-center">
     <div class="service-box">
       <div id="diamond"> <img src="images/prijzen.png" alt="Prijzen" /> </div>
-      <h3>Duidelijke prijs bepaling</h3>
+      <h3 class="centerline">Duidelijke prijs bepaling</h3>
       <p class="text-muted">Optas solestissin eos fde dolen</p>
     </div>
   </div>
@@ -77,7 +76,7 @@
   <div class="col-lg-2 col-md-12 text-center">
     <div class="service-box">
       <div id="diamond"> <img src="images/grafieken.png" alt="Grafieken" /> </div>
-      <h3>Hoger rendement</h3>
+      <h3 class="centerline">Hoger rendement</h3>
       <p class="text-muted">Optas solestissin eos dolen fds</p>
     </div>
   </div>
@@ -86,16 +85,15 @@
 <div class="longline" style="padding-top:50px;"> </div>
 </section>
 <!-- ----- section pre-sale----- -->
-<section id="presale">
+<section id="presale" data-offset="128">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 padding-left">
+    <div class="row vh100">
+      <div class="col-lg-6 col-md-6 padding-left" style="min-height::100vh;padding-bottom:50px;">
         <h3  class="shortline">PRESALE IS</h3>
         <p style="word-break:">De pre-sale fase binnen een project is een methode om een ontwikkeld nieuwbouwproject te toetsen bij de eventuele koper. Bij de pre-sale fase worden de woningtypes zichtbaar gemaakt met afbeeldingen, omschrijving en het verwachte prijsniveau. De informatie op bouwnummerniveau mist op dat moment nog. Door enkele maanden actief campagne te voeren wordt er een actueel beeld zichtbaar of het ontwikkelde product in lijn ligt met de vraag van de markt.</p>
         <p>Om uiteindelijk mee te bewegen kan er in deze fase besloten worden om het prijsniveau bij te stellen, de faseringen aan te passen of de woningtypes te veranderen. Als blijkt dat er helemaal geen vraag is naar het product kan je je afvragen of je in verkoop moet gaan of dat er een ander product dient te komen. De pre-sale fase geeft meer garantie voor betere verkoop.</p>
-        <button class="btn orangeBtn" style="margin-left:0; margin-right:0;">meer weten</button>
-      </div>
-      <div class="col-md-6 padding-0" > <img style="object-fit: cover;" src="images/laptop.png" class="img-responsive" alt=""  /> </div>
+        <a href="#uitleg" class="btn orangeBtn page-scroll" style="line-height:40px; margin-left:0; margin-right:0;">meer weten</a> </div>
+      <div class="col-md-6 padding-0"> <img class="laptop" src="images/laptop.png" alt=""  /> </div>
     </div>
   </div>
 </section>
@@ -106,7 +104,7 @@
     <div class="row">
       <div class="col-md-6 padding-left">
         <div class="row">
-          <div class="col-md-12" >
+          <div class="col-md-12" style="display:table-cell" >
             <div >
               <h3 class="shortline">UITLEG</h3>
               <p>Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut</p>
@@ -136,7 +134,7 @@
               <div> <img src="images/prijzen.png" alt="Prijzen" /> </div>
             </div>
           </div>
-          <div class="col-md-11 col-sm-10 col-xs-9">
+          <div class="col-md-11 col-sm-10 col-xs-9" style="padding-bottom:50px;">
             <div class="mini-box">
               <h4>GRAFIEKEN</h4>
               <p> Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga.<br/>
@@ -150,7 +148,12 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 padding-0" > <img src="images/uitleg.jpg" class="img-responsive" alt=""  /> </div>
+      <div class="col-md-6 padding-0" > <img src="images/uitleg.jpg" style="bottom: 0;
+
+top: 0;
+
+width: auto;
+bottom: 0;" class="img-responsive" alt=""  /> </div>
     </div>
   </div>
 </section>
@@ -175,7 +178,7 @@
   </div>
 </section>
 <!-- ----- contact section ----- -->
-<section id="contact">
+<section id="contact" style="padding-bottom:20px;">
   <div class="container">
     <div class="row">
       <h3 class="text-center longline">Contact</h3>
@@ -193,8 +196,8 @@
 <footer>
 <div class="container">
 <div class="row padding-0">
-  <div class="col-md-6 padding-0"> <a href="https://www.facebook.com/fundamentallmedia" title="Volg ons op Facebook" target="_blank"><i id="social-fb" class="fa fa-facebook fa-3x social"></i></a> <a href="https://twitter.com/fundament" title="Volg ons op Twitter" target="_blank"><i id="social-tw" class="fa fa-twitter fa-3x social"></i></a> </div>
-  <div class="col-md-6 padding-0 poweredBy">Powered by <a href="http://www.fundament.nl/" target="_blank">Fundament All Media</a> </div>
+  <div class="col-xs-4 padding-0"> <a href="https://www.facebook.com/fundamentallmedia" title="Volg ons op Facebook" target="_blank"><i id="social-fb" class="fa fa-facebook fa-3x social"></i></a> <a href="https://twitter.com/fundament" title="Volg ons op Twitter" target="_blank"><i id="social-tw" class="fa fa-twitter fa-3x social"></i></a> </div>
+  <div class="col-xs-8 padding-0 poweredBy">Powered by <a href="http://www.fundament.nl/" target="_blank">Fundament All Media</a> </div>
 </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
